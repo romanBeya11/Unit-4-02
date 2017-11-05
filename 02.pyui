@@ -1,0 +1,110 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 6}, {349, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "instruction_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "77815CEE-1E18-4E10-A112-28AB81465015",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter number of decimal places below",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{94, 53}, {285, 40}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "Enter a number",
+          "name" : "enter_number_textfield",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "BBC9EAA8-D560-4683-B166-94413CA13D71",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{60, 188}, {342, 132}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "CA1EC624-A6A0-4F4F-86D5-05A678D66251",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "output_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{94, 101}, {285, 39}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "Enter number of decimal places",
+          "font_size" : 17,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "92C08A59-041D-457B-B932-46938A0D87B2",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "number_of_decimals_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{169, 148}, {127, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "number_of_decimals_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "DISPLAY",
+          "uuid" : "C35BB350-C3E7-47D7-8656-3AA862CACBFC",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "display_number_button",
+          "font_size" : 20
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
